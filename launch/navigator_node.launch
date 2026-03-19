@@ -1,0 +1,5 @@
+<launch>
+	<!-- My Package launch file -->
+	<node pkg="maze_12f" type="navigator_node_exe" name="navigator_node" output="screen">
+	</node>
+</launch>
