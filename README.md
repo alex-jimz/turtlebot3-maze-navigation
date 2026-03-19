@@ -2,6 +2,15 @@
 
 This project was developed for the Robotics course at **FIB-UPC** and implements a two-phase autonomous navigation pipeline for **TurtleBot3 Burger** using ROS C++.
 
+## Demo
+
+Watch the robot explore and complete the maze:
+
+<video controls width="800">
+  <source src="maze_video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Project overview
 
 The project turns LiDAR and odometry streams into action in real time so a robot can leave a maze reliably and, once mapped, navigate more directly using a planned route.
